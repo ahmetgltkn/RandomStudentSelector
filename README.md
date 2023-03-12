@@ -25,14 +25,14 @@ Alternatively, you can download the ZIP file and extract it to a directory of yo
 
 ## Usage
 
-To use the application, you need to have a text file containing a list of names, with each name on a new line. By default, the application looks for a file named `studentList.txt` in the `src/com/ahmetgltkn/data` directory.
-You can modify this behavior by passing a command-line argument with the file name.
+To use the application, you need to have a text file containing a list of names, with each name on a new line. By default, the application looks for a file named `studentList.txt` in the `src/main/resources` directory. You can modify this behavior by passing a command-line argument with the file name and location.
 
 To run the application, navigate to the project directory and use the following command:
-**java -jar build/libs/random-student-selector.jar numStudents**
+**java -jar build/libs/random-student-selector.jar numStudents filePath**
 
-Replace `numStudents` with the number of students you want to select. For example, to select 5 students, use:
-**java -jar build/libs/random-student-selector.jar 5**
+Replace `numStudents` with the number of students you want to select, and `filePath` with the path to the text file containing the list of names. For example, to select 5 students from a file named `myStudentList.txt` located in the `data` directory, use:
+**java -jar build/libs/random-student-selector.jar 5 data/myStudentList.txt**
+
 
 
 
