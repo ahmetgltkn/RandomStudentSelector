@@ -18,8 +18,7 @@ https://git-scm.com/downloads
 
 To install the application, you can clone the repository using Git:
 
-git clone https://github.com/ahmetgltkn/random-student-selector.git
-
+git clone https://github.com/ahmetgltkn/RandomStudentSelector.git
 
 Alternatively, you can download the ZIP file and extract it to a directory of your choice.
 
