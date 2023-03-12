@@ -40,7 +40,7 @@ The application will select the specified number of students at random and print
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is licensed under the MIT License. See the <a href="https://github.com/ahmetgltkn/RandomStudentSelector/blob/main/LICENSE"> LICENSE </a> file for details.
 
 ## Contributing
 
